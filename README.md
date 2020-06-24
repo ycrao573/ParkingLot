@@ -14,6 +14,7 @@
 1. The input are case-sensitive so please follow the input format
 2. Each vehicle has its unique vehicle number:
    For example Car KK45 and Truck KK45 cannot co-exist
+   If same vehicle number being input, "Vehicle Exist" will shown to the screen
 3. In each floor, there are two sections but not shown on the screen according to the requirements.
    They are included in the code.
 4. The spots are numbered as 1 to 30 on each floor with the incremental distance:
