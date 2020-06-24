@@ -18,9 +18,10 @@
    They are included in the code.
 4. The spots are numbered as 1 to 30 on each floor with the incremental distance:
    i.e., 1 is the nearest, 30 is the farthest
+   The vehicle prefer go 2-30 rather than 3-1
 
 ## Language Version:
-Python 3.8.3
+Python 3.8.3 (with := operator)
 
 ## Input format:
 You can have two types of inputs:
