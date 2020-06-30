@@ -47,7 +47,8 @@ class Level:
             spotNum = freeParkingSpot.spotNumber
             freeParkingSpot.park(vehicle)
             self.parkingSpots[vehicle.vehicleNumber] = freeParkingSpot
-            if spotNum in self.availableSpots: self.availableSpots.remove(spotNum)
+            '''if spotNum in self.availableSpots:'''
+            self.availableSpots.remove(spotNum)
             return spotNum
 
     def exit(self, number):
